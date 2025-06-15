@@ -25,7 +25,7 @@ def calculate_initial_velocity(body, star, G):
     if distance == 0:
         return 0, 0
     orbital_speed = (G * star['mass'] / distance)**0.5
-    direction = 1 if (body['x']*body['y'] > 0) else -1  # Простое определение направления
+    direction = 1 if (body['x']*body['y'] > 0) else -1  
     vx = -direction * orbital_speed * dy / distance
     vy = direction * orbital_speed * dx / distance
     return vx, vy
