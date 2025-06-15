@@ -1,7 +1,7 @@
 import pygame
 from trail_queue import create_trail, add_trail_point, draw_trail
 
-class Body:
+class body:
     pass
 
 def create_body(x, y, mass, color, is_star=False, name=""):
