@@ -1,7 +1,7 @@
 import pygame
 from physics import calculate_gravity, update_position, update_velocity, calculate_initial_velocity
 from trail_queue import create_trail, add_trail_point, draw_trail
-from bodies import Body, create_body, draw_body
+from bodies import body, create_body, draw_body
 
 pygame.init()
 
